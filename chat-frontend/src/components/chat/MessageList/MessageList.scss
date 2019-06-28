@@ -1,0 +1,7 @@
+@import 'utils';
+
+.message-list {
+  max-height: calc(100vh - 8rem);
+  min-height: calc(100vh - 8rem);
+  overflow:scroll;
+}

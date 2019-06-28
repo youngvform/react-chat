@@ -1,0 +1,24 @@
+@import 'utils';
+
+.message {
+  color: white;
+  font-size: 1rem;
+  flex-direction: column;
+  display: flex;
+  background: $oc-blue-4;
+  margin: 10px 5px;
+  clear: both;
+  float: left;
+  border: 1px solid $oc-blue-4;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 20px;
+
+  &.myMsg {
+    background: $oc-green-4;
+    border: 1px solid $oc-green-4;
+    float: right;
+  }
+}

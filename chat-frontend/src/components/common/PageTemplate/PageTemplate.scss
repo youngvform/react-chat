@@ -1,0 +1,27 @@
+@import 'utils';
+
+.page-template{
+  width: 1200px;
+
+  main{
+    background: $oc-gray-0;
+    // border: 2px solid $oc-green-4;
+    border-radius: 2px;
+    max-height: calc(100vh - 6rem);
+    min-height: calc(100vh - 6rem);
+    
+    
+  }
+  @include media("<huge") {
+    width: 1024px;
+  }
+  
+  @include media("<large") {
+    width: 768px;
+  }
+  
+  @include media("<medium") {
+    width: 98%;
+  }
+}
+

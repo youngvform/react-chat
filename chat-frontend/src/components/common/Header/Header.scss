@@ -1,0 +1,22 @@
+@import 'utils';
+
+.header {
+  background: $oc-green-4;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 4rem;
+
+  .contents {
+    flex: 1;
+  }
+  .right {
+    margin: 0 auto;
+  }
+
+}

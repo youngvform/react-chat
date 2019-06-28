@@ -1,0 +1,75 @@
+@import 'utils';
+
+.button {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+
+  &.default {
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+  }
+
+  &.send {
+    font-size: 1.3rem;
+    background: $oc-green-4;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-weight: 500;
+    &:hover {
+      background: white;
+      color: $oc-green-4;
+      border-left: 1px solid $oc-green-4;
+    }
+    &:active {
+      background: $oc-green-6;
+    }
+  }
+
+  &.confirm {
+    font-size: 1.3rem;
+    background: $oc-green-4;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-weight: 500;
+    border: 1px solid $oc-green-4;
+    border-radius: 10px;
+    display: inline-block;
+    &:hover {
+      background: white;
+      color: $oc-green-4;
+      border-left: 1px solid $oc-green-4;
+    }
+    &:active {
+      background: $oc-green-6;
+    }
+  }
+
+  &.cancel {
+    font-size: 1.3rem;
+    background: $oc-red-4;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-weight: 500;
+    border: 1px solid $oc-red-4;
+    border-radius: 10px;
+    display: inline-block;
+    &:hover {
+      background: white;
+      color: $oc-green-4;
+      border-left: 1px solid $oc-red-4;
+    }
+    &:active {
+      background: $oc-red-6;
+    }
+  }
+
+  .disabled{
+    cursor: default;
+  }
+  & + & {
+    margin-left: 0.5rem;
+  }
+
+}

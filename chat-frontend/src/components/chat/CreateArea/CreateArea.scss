@@ -1,0 +1,26 @@
+@import 'utils';
+
+.create-area {
+  margin: 1rem;
+  border: 1px solid $oc-gray-5;
+  border-radius: 3px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  input {
+    font-size: 1.2rem;
+    border: 1px solid $oc-gray-5;
+    margin-right: 3rem;
+  }
+  
+  .title {
+    width: 100%;
+  }
+
+  .error{
+    color: $oc-red-7;
+  }
+
+}

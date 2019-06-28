@@ -1,0 +1,32 @@
+@import 'utils';
+
+.message-input{
+  display: flex;
+  width: 100%;
+  border: 1px solid $oc-gray-4;
+
+ input {
+    font-size: 0.85rem;
+    flex: 1;
+    background: none;
+    outline: none;
+    font-weight: 600;
+    color: $oc-green-6;
+    min-height: 2rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    &::placeholder {
+      color: $oc-green-6;
+    }
+    &:hover {
+      background: white;
+      color: $oc-green-4;
+    }
+    &:focus {
+      background: white;
+      border: 1px solid $oc-green-4;
+    }
+
+  }
+}
